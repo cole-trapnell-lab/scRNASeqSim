@@ -1,0 +1,11 @@
+Package: scRNASeqSim
+Type: Package
+Title: A Package to Simulate Single Cell Trajectory Used for Benchmarking Pseudotime Ordering and Network Inference Algorithms 
+Version: 0.1.0
+Author: Xiaojie Qiu, Arman Rahimzamani
+Maintainer: Xiaojie Qiu <xqiu@uw.edu> 
+Description: This package is designed to simulate a developmental trajectory based on a set of stochastic differential equations used to describe the dynamics of a manually curated minal network for central nervious system (CNS) development. It can generate three distinct branches where the CNS progenitor cells can differentiate into either neuron or glia progenitors. The glia progenitors can further develop into either the astrocyte or the oligodendorcyte cells. The expression profile simulated by this system can be used to benchmark the pseudotemporal ordering algorithms as well as gene regulatory network inference algorithms. Those kind of benchmark has been performed for the Monocle 2 and Scribe packages. In addition, this package also includes data for other types of trajectories used in a series of reversed graph embedding (RGE) work the Monocle package relies on. We will also include simulation for other types of cell trajectories, including cell cycle in near future.   
+License: GPL (>= 2) | file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
